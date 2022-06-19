@@ -1,19 +1,23 @@
 import styled from "styled-components";
 import ButtonSignUp from "../styled/ButtonSignUp.styled";
-import { Colors, TextStyles } from "../../Theme";
+import { Colors } from "../../Theme";
 
 const HeaderEl = styled.header`
- padding: 21px 10%;
- width: 100%;
- display: flex;
- align-items: center;
- justify-content: space-between;
- font-weight: 700;
- background-color: #29304D;
- color: white;
+
+   padding: 21px 10%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-weight: 700;
+
+   font-family:"Montserrat";
+   background-color: #29304D;
+   color: white;
 `;
 
 const LeftPart = styled.span`
+
   display: flex;
   column-gap: 1rem;
   margin-left: 5rem;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Icon1 from "../../../images/icons/01.svg";
-import Icon2 from "../../../images/icons/02.svg";
-import Icon3 from "../../../images/icons/03.svg";
+import Icon1 from "../../../images/icons/01.png";
+import Icon2 from "../../../images/icons/02.png";
+import Icon3 from "../../../images/icons/03.png";
 import H2 from "../../styled/H2.styled";
 import Lead from "../../styled/Lead2.styled";
 import FeatureItem from "./FeatureItem";
@@ -12,20 +12,20 @@ const Items = [
   {
     id: 1,
     icon: Icon1,
-    title: "Robust workflow",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
+    title: "Budget Planner",
+    text: "Manage Keuanganmu. Tambahkan income dan update your income.",
   },
   {
     id: 2,
     icon: Icon2,
-    title: "Flexibility",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
+    title: "Atur Cicilan",
+    text: "Berbagai Usia akan berbeda setiap cicilan.",
   },
   {
     id: 3,
     icon: Icon3,
-    title: "User friendly",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
+    title: "Reminder",
+    text: "Setiap Pembayaran akan di reminder.",
   },
   
 ];
